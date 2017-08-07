@@ -1,0 +1,54 @@
+<form name="theForm" action="https://3dgatewaytest.ambankgroup.com/BPG/admin/payment/PaymentWindow.jsp" method="post" >
+<center> <h3>Merchant API Testing Form For Sales Request (Payment Window)</h3> </center>
+<table border="0" width="70%" align="center" >
+<tr>
+<td width="35%">MERCHANT_ACC_NO</td> <td width="3%">:</td>
+<td width="62%"> <input name="MERCHANT_ACC_NO" type="text" value="00000410056874248001062" size="50"></td>
+</tr>
+<tr>
+<td>TXN_PASSWORD</td> <td>:</td>
+ <td> <input name="TXN_PASSWORD" type="text" value="LeMac" size="50" > 
+</td>
+ </tr>
+ <tr>
+<td>AMOUNT</td> <td>:</td>
+<td> <input name="AMOUNT" type="text" value="50.00" size="50" > </td>
+</tr>
+<tr>
+<td>TRANSACTION_TYPE</td> <td>:</td>
+<td> <input name="TRANSACTION_TYPE" type="text" value="2" size="50">
+</td>
+</tr>
+<tr>
+<td>MERCHANT_TRANID</td> <td>:</td>
+<td> <input name="MERCHANT_TRANID" type="text" value="12345678" size="50">
+</td>
+</tr>
+<tr>
+<td>RESPONSE_TYPE</td> <td>:</td>
+<td> <input name="RESPONSE_TYPE" type="text" value="HTTP" size="50">
+</td>
+</tr>
+<tr>
+<td>RETURN_URL</td> <td>:</td>
+<td> <input name="RETURN_URL" type="text" value="https://my.here2go.asia" size="50" ></td>
+</tr>
+<tr>
+<td>TXN_DESC</td> <td>:</td>
+<td> <input name="TXN_DESC" type="text" value="Order from Merchant Test Store" size="50">
+</td>
+</tr>
+<tr>
+<td>CUSTOMER_ID</td> <td>:</td>
+<td> <input name="CUSTOMER_ID" type="text" value="user123" size="50" ></td>
+</tr>
+<tr>
+<td>SECURE_SIGNATURE</td> <td>:</td>
+<td> <input name="SECURE_SIGNATURE" type="text" value="a365151c3028a1233b0355070bc54906639462b8527bf81992cf290c958db300265fab335a7059f04b240760be8dffb3a290cece44cff6e418e7dd5d0ceba27b" size="128"></td>
+</tr>
+<tr>
+<td align="center" colspan="3"><br> <input type="submit" value="Submit" >
+</td>
+</tr>
+</table>
+</form>
